@@ -6,7 +6,8 @@ Dice have the same chance of rolling 1 - 6
 
 <details>
 <summary>python dice roller</summary>
-```import random
+```
+import random
 from collections import defaultdict
 
 outcomes = defaultdict(int)
@@ -30,5 +31,6 @@ for result in range(dice, dice*6 + 1):
     outcome += str(outcomes[result]).rjust(6)
 
 print header
-print outcome```
+print outcome
+```
 </details>
