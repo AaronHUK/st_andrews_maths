@@ -9,6 +9,7 @@ Rolling a dice gives you an even chance of getting every number. Let's quickly d
 
 <details>
 <summary>python dice roller</summary>
+
 ```import random
 from collections import defaultdict
 
@@ -35,6 +36,7 @@ for result in range(dice, dice*6 + 1):
 print header
 print outcome
 ```
+
 </details>
 [Python sandbox](https://pythonsandbox.com/)
 
