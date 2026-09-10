@@ -1,18 +1,20 @@
 # Dice and Coins
 
-Dice have the same chance of rolling 1 - 6
+Rolling a dice gives you an even chance of getting every number. Let's quickly demonstrate that now:
+
+> [!IMPORTANT]
+> Grab 2 same coloured dice from the front. Roll one of them 10 times and tally your results in table A.
 
 [Dice rolling example](https://docs.google.com/spreadsheets/d/1HUFuqyx0c2wW2K_zEDdOnPgo2Z_aOr8HdQ8JqLKjLnc/edit?usp=sharing)
 
 <details>
 <summary>python dice roller</summary>
-```
-import random
+```import random
 from collections import defaultdict
 
 outcomes = defaultdict(int)
-trials = 100000
-dice = 3
+trials = 1000
+dice = 1
 
 for _ in range(trials):
     my_int = 0
@@ -27,10 +29,16 @@ if trials > 100:
 
 header, outcome = "", ""
 for result in range(dice, dice*6 + 1):
-    header += str(result).rjust(6)
-    outcome += str(outcomes[result]).rjust(6)
+    header += str(result).rjust(8)
+    outcome += str(outcomes[result]).rjust(8)
 
 print header
 print outcome
 ```
 </details>
+[Python sandbox](https://pythonsandbox.com/)
+
+What do you think 2 dice rolls look like (as in monopoly)? Will it be flat like a single dice roll?
+
+> [!IMPORTANT]
+> Roll both dice 10 times and tally your results in table B.
