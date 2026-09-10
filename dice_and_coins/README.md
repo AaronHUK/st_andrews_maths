@@ -37,10 +37,26 @@ print header
 print outcome
 ```
 
-</details>
 [Python sandbox](https://pythonsandbox.com/)
+
+</details>
 
 What do you think 2 dice rolls look like (as in monopoly)? Will it be flat like a single dice roll?
 
 > [!IMPORTANT]
 > Roll both dice 10 times and tally your results in table B.
+
+Why is `7` more likely than any other number?
+
+Let's look at the possible outcomes:
+
+```
+Dice |  1  |  2  |  3  |  4  |  5  |  6
+-----+-----+-----+-----+-----+-----+-----
+  1  |  2  |  3  |  4  |  5  |  6  |  7
+  2  |  3  |  4  |  5  |  6  |  7  |  8
+  3  |  4  |  5  |  6  |  7  |  8  |  9
+  4  |  5  |  6  |  7  |  8  |  9  | 10
+  5  |  6  |  7  |  8  |  9  | 10  | 11
+  6  |  7  |  8  |  9  | 10  | 11  | 12
+```
