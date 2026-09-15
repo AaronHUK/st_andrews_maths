@@ -19,26 +19,42 @@ from collections import defaultdict
 
 outcomes = defaultdict(int)
 trials = 1000
-dice = 1
+dice = 2
+lo, hi = 1, 6
 
+def round_to_thousand(num):
+  newnum = num + 500
+  m_digit = newnum // 1000
+  return m_digit * 1000
+
+trials = trials * (2**dice)
+if trials > 100000:
+  trials = 100000
 for _ in range(trials):
     my_int = 0
     for die in range(dice):
-        my_int += random.randint(1, 6)
+        my_int += random.randint(lo, hi)
     if trials <= 100:
         print("Rolled a score of " + str(my_int) + "!")
     outcomes[my_int] += 1
 
 if trials > 100:
-    print("Performed " + str(trials) + " dice rolls!")
+    item = " coin flips!" if hi == 1 else " dice rolls!"
+    print("Performed " + str(trials) + item)
 
-header, outcome = "", ""
-for result in range(dice, dice*6 + 1):
+header, outcome, rounded_outcome = "", "", ""
+
+for result in range(dice*lo, dice*hi + 1):
     header += str(result).rjust(8)
     outcome += str(outcomes[result]).rjust(8)
+    rounded = round_to_thousand(outcomes[result])
+    rounded_outcome += str(rounded).rjust(8)
 
 print header
 print outcome
+if trials > 10000:
+  print("        (Rounded to the nearest thousand)")
+  print rounded_outcome
 ```
 
 [Python sandbox](https://pythonsandbox.com/)
@@ -90,15 +106,57 @@ What do you think the graph will look like?
 For 3 coins, we can go through the options in this table:
 
 ```
- Coin1 || Coin2 || Coin3 || Heads
-=======++=======++=======++=======
-   0   ||   0   ||   0   ||
-   0   ||   0   ||   1   ||
-   0   ||   1   ||   0   ||
-   0   ||   1   ||   1   ||
-   1   ||   0   ||   0   ||
-   1   ||   0   ||   1   ||
-   1   ||   1   ||   0   ||
-   1   ||   1   ||   1   ||
+ First ||
+  Two  || Second coin
+ Coins ||   0   |   1
+=======++=======+=======
+   0   ||   0   |   1
+   1   ||   1   |   2
+   1   ||   1   |   2
+   2   ||   2   |   3
+```
+counting up the results:
+```
+  0  |  1  |  2  |  3
+=====+=====+=====+=====
+  1  |  3  |  3  |  1
 ```
 
+> [!TIP]
+> Let's verify this with the python code (above).
+
+We can do the same thing to predict what 4 coin tosses will look like:
+```
+ First ||
+ Three || Third coin
+ Coins ||   0   |   1
+=======++=======+=======
+   0   ||   0   |   1
+   1   ||   1   |   2
+   1   ||   1   |   2
+   1   ||   1   |   2
+   2   ||   2   |   3
+   2   ||   2   |   3
+   2   ||   2   |   3
+   3   ||   3   |   4
+```
+Tallying up those:
+```
+  0  |  1  |  2  |  3  |  4
+=====+=====+=====+=====+=====
+  1  |  4  |  6  |  4  |  1
+```
+
+> [!TIP]
+> Let's verify these as well
+
+Do these numbers look familiar to anyone?
+Can anyone describe what's going on here?
+
+```
+                1
+			  1   1       --- one coin
+		    1   2   1     --- 2 coins
+		  1   3   3   1   --- 3 coins
+		1   4   6   4   1 --- 4 coins
+```
