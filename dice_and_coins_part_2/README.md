@@ -51,6 +51,10 @@ Counting up the results:
 
 Let's check if our predictions match what we actually get.
 
+> [!IMPORTANT]
+> Let's graph the results for 3 coin flips
+
+
 ### Pascal's triangle
 
 Does anyone see a pattern in these numbers?
