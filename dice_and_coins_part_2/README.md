@@ -61,4 +61,25 @@ Does anyone see a pattern in these numbers?
  1   3   3   1  -- 3 coin flips
 ```
 
+> [!IMPORTANT]
+> Why does Pascal's triangle match our coin flip outcomes?
+
 ### Pointy or flat
+
+We noted last week that sometimes the top of the graph was pointy, and sometimes it was flat.
+
+Let's look at some further coin flip graphs.
+
+> [!IMPORTANT]
+> What numbers make a point, and what numbers make a flat top?
+
+> [!IMPORTANT]
+> Can you predict where the peak or twin peaks will be?
+
+> [!TIP]
+> What does the triangle look like for dice? We've seen the first 2 rows already:
+
+```
+0   0   0   0   0   1   1   1   1   1   1   0   0   0   0   0
+  0   0   1   2   3   4   5   6   5   4   3   2   1   0   0
+```
