@@ -22,14 +22,19 @@ trials = 1000
 dice = 2
 lo, hi = 1, 6
 
-def round_to_thousand(num):
-  newnum = num + 500
-  m_digit = newnum // 1000
-  return m_digit * 1000
+def round_to_thousand(num, digits=3):
+  factor = 10 ** (digits - 1)
+  newnum = num + (5 * factor)
+  m_digit = newnum // (10 * factor)
+  return m_digit * (10 * factor)
 
-trials = trials * (2**dice)
-if trials > 100000:
-  trials = 100000
+my_range = hi + 1 - lo
+
+print (f"range of {my_range} applies factor of {my_range ** dice} giving {trials * (my_range ** dice)} trials")
+
+trials = trials * (my_range**dice)
+if trials > 10**9:
+  trials = 10**9
 for _ in range(trials):
     my_int = 0
     for die in range(dice):
@@ -45,16 +50,15 @@ if trials > 100:
 header, outcome, rounded_outcome = "", "", ""
 
 for result in range(dice*lo, dice*hi + 1):
-    header += str(result).rjust(8)
-    outcome += str(outcomes[result]).rjust(8)
+    header += str(result) + "\t\t"
+    outcome += str(outcomes[result]) + "\t"
     rounded = round_to_thousand(outcomes[result])
-    rounded_outcome += str(rounded).rjust(8)
-
-print header
-print outcome
-if trials > 10000:
+    rounded_outcome += str(rounded) + "\t"
+print(header)
+print(outcome)
+if trials > 990 * len(outcomes):
   print("        (Rounded to the nearest thousand)")
-  print rounded_outcome
+  print(rounded_outcome)
 ```
 
 [Python sandbox](https://pythonsandbox.com/)
