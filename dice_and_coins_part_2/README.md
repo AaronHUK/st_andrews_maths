@@ -55,9 +55,10 @@ Let's check if our predictions match what we actually get.
 
 Does anyone see a pattern in these numbers?
 
-```  1   1
-   1   2   1
- 1   3   3   1
+```
+     1   1      -- 1 coin flip
+   1   2   1    -- 2 coin flips
+ 1   3   3   1  -- 3 coin flips
 ```
 
 ### Pointy or flat
