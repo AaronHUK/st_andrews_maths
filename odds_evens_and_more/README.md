@@ -46,25 +46,24 @@ And just like odd and even, doing adding, subtracting and multiplying continue t
 
 ## adding on remainder 3s
 
-| || 0<sub>r3</sub> | 1<sub>r3</sub> | 2<sub>r3</sub> |
-| --- || --- | --- | --- |
-| 0<sub>r3</sub> || 0<sub>r3</sub> | 1<sub>r3</sub> | 2<sub>r3</sub> |
-| 1<sub>r3</sub> || 1<sub>r3</sub> | 2<sub>r3</sub> | 0<sub>r3</sub> |
-| 2<sub>r3</sub> || 2<sub>r3</sub> | 0<sub>r3</sub> | 1<sub>r3</sub> |
-```
+| + | 0<sub>r3</sub> | 1<sub>r3</sub> | 2<sub>r3</sub> |
+| --- | --- | --- | --- |
+| 0<sub>r3</sub> | 0<sub>r3</sub> | 1<sub>r3</sub> | 2<sub>r3</sub> |
+| 1<sub>r3</sub> | 1<sub>r3</sub> | 2<sub>r3</sub> | 0<sub>r3</sub> |
+| 2<sub>r3</sub> | 2<sub>r3</sub> | 0<sub>r3</sub> | 1<sub>r3</sub> |
 
 ## minus on remainder 3s
-```
-   || O || E
-===++===++===
- O ||   ||
- E ||   ||
-```
+
+| - | 0<sub>r3</sub> | 1<sub>r3</sub> | 2<sub>r3</sub> |
+| --- | --- | --- | --- |
+| 0<sub>r3</sub> | | | |
+| 1<sub>r3</sub> | | | |
+| 2<sub>r3</sub> | | | |
 
 ## times on remainder 3s
-```
-   || O || E
-===++===++===
- O ||   ||
- E ||   ||
-```
+
+| x | 0<sub>r3</sub> | 1<sub>r3</sub> | 2<sub>r3</sub> |
+| --- | --- | --- | --- |
+| 0<sub>r3</sub> | | | |
+| 1<sub>r3</sub> | | | |
+| 2<sub>r3</sub> | | | |
