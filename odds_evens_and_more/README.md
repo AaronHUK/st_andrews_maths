@@ -3,28 +3,25 @@
 We can split all the numbers into two groups, odds and evens. We can do our usual adding, subtracting and multiplying on these groups:
 
 ## adding on Odds and Evens
-```
-   || O || E
-===++===++===
- O || E || O
- E || O || E
-```
+
+| + | O | E |
+| --- | --- | --- |
+| O | E | O |
+| E | O | E |
 
 ## minus on Odds and Evens
-```
-   || O || E
-===++===++===
- O ||   ||
- E ||   ||
-```
+
+| - | O | E |
+| --- | --- | --- |
+| O |  |  |
+| E |  |  |
 
 ## times on Odds and Evens
-```
-   || O || E
-===++===++===
- O ||   ||
- E ||   ||
-```
+
+| x | O | E |
+| --- | --- | --- |
+| O |  |  |
+| E |  |  |
 
 We can think about odd and even numbers as whether they have a remainder when divided by two or not.
 
