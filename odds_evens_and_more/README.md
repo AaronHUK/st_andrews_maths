@@ -38,6 +38,32 @@ Another way we can split the numbers up is into three groups, where we look at t
 We can call these groups "zero-remainder-three" (0<sub>r3</sub>), "one-remainder-three" (1<sub>r3</sub>), and "two-remainder-three" (2<sub>r3</sub>).
 
 > [!TIP]
-> **(0<sub>r3</sub>)** - no remainder when divided by **3**<br>
-> **(1<sub>r3</sub>)**  - remainder of **1** when divided by **3**<br>
-> **(2<sub>r3</sub>)**  - remainder of **2** when divided by **3**<br>
+> **0<sub>r3</sub>** - no remainder when divided by **3**<br>
+> **1<sub>r3</sub>**  - remainder of **1** when divided by **3**<br>
+> **2<sub>r3</sub>**  - remainder of **2** when divided by **3**<br>
+
+And just like odd and even, doing adding, subtracting and multiplying continue to work on these groups:
+
+## adding on remainder 3s
+```
+   || 0<sub>r3</sub> || E
+===++===++===
+ O || E || O
+ E || O || E
+```
+
+## minus on remainder 3s
+```
+   || O || E
+===++===++===
+ O ||   ||
+ E ||   ||
+```
+
+## times on remainder 3s
+```
+   || O || E
+===++===++===
+ O ||   ||
+ E ||   ||
+```
