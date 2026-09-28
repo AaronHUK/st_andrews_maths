@@ -29,10 +29,15 @@ We can split all the numbers into two groups, odds and evens. We can do our usua
 We can think about odd and even numbers as whether they have a remainder when divided by two or not.
 
 > [!TIP]
-> *Evens* - no remainder when divided by 2<br>
-> *Odds*  - remainder of 1 when divided by 2
+> **Evens** - no remainder when divided by 2<br>
+> **Odds**  - remainder of 1 when divided by 2
 
 # Splitting into 3 groups
 
 Another way we can split the numbers up is into three groups, where we look at the remainder when divided by 3 instead of 2.
 We can call these groups "zero-remainder-three" (0<sub>r3</sub>), "one-remainder-three" (1<sub>r3</sub>), and "two-remainder-three" (2<sub>r3</sub>).
+
+> [!TIP]
+> **(0<sub>r3</sub>)** - no remainder when divided by **3**<br>
+> **(1<sub>r3</sub>)**  - remainder of **1** when divided by **3**<br>
+> **(2<sub>r3</sub>)**  - remainder of **2** when divided by **3**<br>
