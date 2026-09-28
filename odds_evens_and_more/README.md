@@ -67,3 +67,18 @@ And just like odd and even, doing adding, subtracting and multiplying continue t
 | 0<sub>r3</sub> | | | |
 | 1<sub>r3</sub> | | | |
 | 2<sub>r3</sub> | | | |
+
+## Testing for divisible by 3
+
+Is everyone familiar with the rule that to check if a number can be divided by 3, you add together the digits?
+
+We can see how that rule works now!
+
+> [!IMPORTANT]
+> Which remainder-three group does **10** fit into?<br>
+> Which remainder-three group does **100** fit into?<br>
+> Which remainder-three group does **10,000,000,000** fit into?
+
+## A surprising result
+
+For any number A, what remainder-three group does A x A x A (A cubed) belong in?
