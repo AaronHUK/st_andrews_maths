@@ -4,24 +4,24 @@ We can split all the numbers into two groups, odds and evens. We can do our usua
 
 ## adding on Odds and Evens
 
-| + | O | E |
+| + | Odd | Even |
 | --- | --- | --- |
-| O | E | O |
-| E | O | E |
+| Odd | Even | Odd |
+| Even | Odd | Even |
 
 ## minus on Odds and Evens
 
-| - | O | E |
+| - | Odd | Even |
 | --- | --- | --- |
-| O |  |  |
-| E |  |  |
+| Odd |  |  |
+| Even |  |  |
 
 ## times on Odds and Evens
 
-| x | O | E |
+| x | Odd | Even |
 | --- | --- | --- |
-| O |  |  |
-| E |  |  |
+| Odd |  |  |
+| Even |  |  |
 
 We can think about odd and even numbers as whether they have a remainder when divided by two or not.
 
