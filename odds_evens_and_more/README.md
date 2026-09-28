@@ -29,7 +29,7 @@ We can split all the numbers into two groups, odds and evens. We can do our usua
 We can think about odd and even numbers as whether they have a remainder when divided by two or not.
 
 > [!TIP]
-> *Evens* - no remainder when divided by 2
+> *Evens* - no remainder when divided by 2<br>
 > *Odds*  - remainder of 1 when divided by 2
 
 # Splitting into 3 groups
