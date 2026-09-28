@@ -45,11 +45,12 @@ We can call these groups "zero-remainder-three" (0<sub>r3</sub>), "one-remainder
 And just like odd and even, doing adding, subtracting and multiplying continue to work on these groups:
 
 ## adding on remainder 3s
-```
-   || 0<sub>r3</sub> || E
-===++===++===
- O || E || O
- E || O || E
+
+| | 0<sub>r3</sub> | 1<sub>r3</sub> | 2<sub>r3</sub> |
+| --- | --- | --- | --- |
+| 0<sub>r3</sub> | 0<sub>r3</sub> | 1<sub>r3</sub> | 2<sub>r3</sub> |
+| 1<sub>r3</sub> | 1<sub>r3</sub> | 2<sub>r3</sub> | 0<sub>r3</sub> |
+| 2<sub>r3</sub> | 2<sub>r3</sub> | 0<sub>r3</sub> | 1<sub>r3</sub> |
 ```
 
 ## minus on remainder 3s
