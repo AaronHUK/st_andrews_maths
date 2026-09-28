@@ -81,4 +81,14 @@ We can see how that rule works now!
 
 ## A surprising result
 
-For any number A, what remainder-three group does A x A x A (A cubed) belong in?
+For any number A, what remainder-three group does
+```
+A x A x A
+```
+(A cubed) belong in?
+
+what remainder-three group does
+```
+(A x A x A) - A
+```
+(A cubed minus A) belong in?
