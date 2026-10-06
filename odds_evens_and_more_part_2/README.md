@@ -6,7 +6,7 @@
 
 Last week we talked about the check of adding all the digits together to check if a number could be divided by 3
 
-e.g. `78,435` - `7 + 8 + 4 + 3 + 5 = 27` and `2 + 7 = 9`, so `78,435` is divisible by 3.
+e.g. `78,435` turns into `7 + 8 + 4 + 3 + 5 = 27` which is divisible by 3.
 
 We showed that 10, 100, 1000 e.t.c were all remainder 1 when divided by 3
 
@@ -41,7 +41,33 @@ e.g. turning:
 into
 `00,405`
 
-Can anyone tell me why it's OK to do this when checking for divide by 3s?
+> [!TIP]
+> Why is it OK to do this when checking for divide by 3s?
+
+## Other number rules
+
+### Rule of 2s
+
+> [!TIP]
+> How do we check if a number is divisible by 2?
+
+I'd like you all to take 2 minutes to try and write down why that rule works.
+
+### Rule of 5s
+
+> [!TIP]
+> How do we check if a number is divisible by 5?
+
+### Rule of 10s
+
+> [!TIP]
+> How do we check if a number is divisible by 10?
+
+### Rule of 6s
+
+> [!TIP]
+> How do we check if a number is divisible by 6?
+
 
 ### A surprising result
 
