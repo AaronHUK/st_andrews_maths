@@ -23,6 +23,29 @@ How many guesses does it take if we're choosing between `1`, `2` and `3`?
 
 What would your strategy be for choosing between `1` and `7`?
 
+<details>
+  <summary>how many guesses for each number</summary>
+
+| guess<br>count | how many<br>numbers | 2 ^ (guess count) |
+| --- | --- | --- |
+| 1 | 1 | 2 |
+| 2 | 3 | 4 |
+| 3 | 7 | 8 |
+| 4 | 15 | 16 |
+| 5 | 31 | 32 |
+| 6 | 63 | 64 |
+| 7 | 127 | 128 |
+| 8 | 255 | 256 |
+| 9 | 511 | 512 |
+| 10 | 1,023 | 1,024 |
+| 11 | 2,047 | 2,048 |
+| 12 | 4,095 | 4,096 |
+| 13 | 8,191 | 8,192 |
+| 14 | 16,383 | 16,384 |
+
+</details>
+
+
 ## A weighing problem
 
 Suppose you have a set of scales, and 12 coins. You know one of the coins is fake, and that the fake coin weighs `101` grams compared to the real coins weighing `100` grams.
