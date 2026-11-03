@@ -30,3 +30,13 @@ Suppose you have a set of scales, and 12 coins. You know one of the coins is fak
 So e.g. if you put `3` coins on the scale, and you don't have the fake one, it will weigh `300g`. If you do have the fake one, it will weigh `301g`.
 
 What's the least number of weighings you can use to find out which coin is fake?
+
+## Another weighing problem
+
+Suppose you have a set of balance scales, and 12 coins. You know that one of the coins is fake, and that the weight of the fake coin is different, but you don't know if the fake coin is heavier or lighter than the real coins.
+
+What's the least number of weighings you can use to find out which coin is fake?
+
+## Guess who
+
+![guess_who_pictures](https://github.com/AaronHUK/st_andrews_maths/blob/main/resources/guess_who_v1.png?raw=true)
