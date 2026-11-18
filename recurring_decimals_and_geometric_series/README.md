@@ -14,6 +14,8 @@ What about this number?
 
 and this number?
 
+`0.111111111... (going on forever)`
+
 `0.121212121212.... (going on forever)`
 
 
