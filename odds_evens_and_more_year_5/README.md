@@ -2,8 +2,6 @@
 
 ## Remainder 3
 
-### Divide by 3 check continued
-
 ### A surprising result
 
 For any number A, the sum
@@ -20,13 +18,13 @@ is *always* divisible by 3.
 
 | A | A<sup>3</sup> - A | divided by 3 is |
 | --- | --- | --- |
-| 1 | 0 | 0 |
-| 2 | 6 | 2 |
-| 3 | 24 | 8 |
-| 4 | 60 | 20 |
-| 5 | 120 | 40 |
-| 6 | 210 | 70 |
-| 7 | 336 | 112 |
+| 1 | 1 - 1 = 0 | 0 |
+| 2 | 8 - 2 = 6 | 2 |
+| 3 | 27 - 3 = 24 | 8 |
+| 4 | 64 - 4 = 60 | 20 |
+| 5 | 125 - 5 = 120 | 40 |
+| 6 | 216 - 6 = 210 | 70 |
+| 7 | 343 - 7 = 336 | 112 |
 
 </details>
 
