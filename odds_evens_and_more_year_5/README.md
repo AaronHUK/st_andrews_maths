@@ -9,9 +9,9 @@ For any number A, the sum
 (A x A x A) - A
 ```
 
-also written as A<sup>3</sup> - A
+(*also written as A<sup>3</sup> - A*)
 
-is *always* divisible by 3.
+is **always** divisible by 3.
 
 <details>
   <summary>Examples</summary>
